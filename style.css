@@ -1,0 +1,30 @@
+
+
+
+#btn{
+    background: orange;
+    border: none;
+    border-radius: 9px;
+    padding: 9px;
+    cursor: pointer;
+}
+
+.loading{
+    background: #014b94;
+    color: #eee;
+}
+
+.loading .icon {
+    display: inline-block;
+    color: #eee;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
